@@ -55,7 +55,7 @@
     { "trigger": "assert.deepPropertyVal", "contents": "assert.deepPropertyVal(${1:object}, ${2:property} ${3:value}${4:, '${5:[message]}'});$0"},
     { "trigger": "assert.deepPropertyNotVal", "contents": "assert.deepPropertyNotVal(${1:object}, ${2:property}, ${3:value}${4:, '${5:[message]}'});$0"},
     { "trigger": "assert.lengthOf", "contents": "assert.lengthOf(${1:object}, ${2:length}${3:, '${4:[message]}'});$0"},
-    { "trigger": "assert.throws", "contents": "assert.throws(${1:function}, ${2:constructor/regexp}${3:, '${4:[message]}'});$0"},
+    { "trigger": "assert.throws", "contents": "assert.throws(${1:function}, ${2:constructor/string/regexp}, ${3:string/regexp}, ${4:, '${5:[message]}'});$0"},
     { "trigger": "assert.doesNotThrow", "contents": "assert.doesNotThrow(${1:function}, ${2:constructor/regexp}${3:, '${4:[message]}'});$0"},
     { "trigger": "assert.operator", "contents": "assert.operator(${1:val1}, ${2:operator}, ${3:val2}${4:, '${5:[message]}'});$0"},
     { "trigger": "assert.closeTo", "contents": "assert.closeTo(${1:actual}, ${2:expected}, ${3:delta}${4:, '${5:[message]}'}$0"},
